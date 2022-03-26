@@ -3,7 +3,7 @@ from biblioteca.arquivo import *
 from biblioteca.perguntas import *
 from time import sleep
 
-nomeArquivo = 'form_estatistica.txt'
+nomeArquivo = 'form_estatistica.csv'
 verificarArquivo(nomeArquivo)
 titulo('FORMULÁRIO COVID')
 menu = ('Cadastrar Novo', 'Encerrar')
