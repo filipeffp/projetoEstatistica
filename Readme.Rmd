@@ -1,0 +1,43 @@
+---
+title: "Explicação da atividade"
+author: "Filipe Falcão Pimentel"
+date: '2022-03-27'
+output: html_document
+---
+
+# Primeira etapa: Confecção do Relatório
+   Foi utilizada a linguagem de programação Python para construir um arquivo (main.py) com um questionário contendo 10 atributos(variáveis) simulando dados referentes a pessoas com casos graves de COVID com as seguintes variáveis.
+   Foram preenchidas respostas ao questionário contendo um cabeçalho com o nome de cada atributo, que foram salvas em um arquivo no formato de texto separado por vírgula.
+   
+## Variáveis qualitativas nominais:
+   Gênero;
+   Região Domiciliar;
+   Comorbidades.
+   
+## Variáveis qualitativas ordinais:
+   Escolaridade;
+   Classe econômica;
+   
+## Variáveis quantitativas discretas:
+   Quantidade de doses de vacina tomadas;
+   Exercícios praticados semanalmente;
+   Idade.
+   
+## Variáveis quantitativas contínuas:
+   Peso;
+   Altura.
+
+# Segunda etapa: RStudio
+  Para cada variável qualitativa foram calculadas as respectivas porcentagens.
+  Para cada variável quantitativa foram calculadas as média, mediana, Q1, Q3, variância e desvio padrão.
+  Foram criados gráficos do tipo, gráfico de barras, pizza, histograma, box-plot e gráfico de dispersão, que envolveram todas as variáveis apresentadas.
+
+# Terceira etapa: Relatório
+  Foi criado um arquivo RMardown apresentado as estatística e cada um dos gráficos confeccionados na segunda etapa.
+  
+# Quarta etapa: Upload dos arquivos
+  Foi feito upload do código descrito na primeira etapa, e dos arquivos da segunda e terceira etapa no seu github pessoal (https://github.com/filipeffp/projetoEstatistica).
+  Foi confeccionado o presente arquivo Readme.md para explicar a atividade.
+  
+# Quinta etapa: Postagem da atividade
+  Postagem do link do repositório no Classroom
