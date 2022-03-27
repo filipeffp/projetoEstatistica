@@ -10,7 +10,7 @@ output:
 ```{r setup, include=FALSE}
 #Importe o arquivo de texto no Rstudio
 dados =  read.csv(
-  file = 'C:/Users/filip/PycharmProjects/projetoEstatistica2/form_estatistica.txt',
+  file = 'form_estatistica.txt',
   sep = ',',
   dec = '.',
   header = TRUE,
